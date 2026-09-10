@@ -14,4 +14,4 @@ Kelebihan dari penelitian ini adalah pendekatan yang komprehensif dalam meneliti
 
 Studi ini memberikan pencerahan lewat metode network pharmacology, molecular docking, dan bioinformatika untuk melihat efektivitas jamur Chaga dalam melawan CRC. Network pharmacology memperlihatkan gen AKT1, IFNG, MMP9, MMP2, IL6, NFKB1, TNF, CD4, dan IL1B krusial dalam menunjukkan aktivitas anti-kanker. Molecular docking mengkonfirmasi afinitas ikatan gen tersebut dengan komponen target. Analisis bioinformatika menunjukkan ekspresi gen diferensial yang signifikan dan pola infiltrasi imun yang menunjukkan pentingnya gen-gen tersebut dalam tumor microenvironment dan prognosis pasien.
 
-![Jamur Chaga Kanker Kolorektal](/jamur chaga kanker kolorektal.png)
+![Jamur Chaga Kanker Kolorektal](/jamur%20chaga%20kanker%20kolorektal.png)
