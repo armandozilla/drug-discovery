@@ -27,6 +27,8 @@ Kita lalu ubah bentuk network menjadi lingkaran berdasarkan degree. Setelah disi
 
 Kita kemudian melakukan enrichment analysis dengan ShinyGO. Top 20 senyawa yang kita dapatkan tadi kita masukkan ke dalam ShinyGO. Dari 20 senyawa tersebut yang menduduki posisi paling berpengaruh adalah “Prolactin Signaling Pathway”.
 
+![enrichment analysis](enrichment_analysis.png)*Enrichment Analysis*
+
 Kita lalu kembali ke String dan memasukkan 9 protein irisan yang tadi. Dari hasil analisis, kita akan mendownload biological process (gene ontology), molecular function (gene ontology), KEGG pathways, dan All Enriched Terms untuk kemudian divisualisasikan di Cytoscape. Kita buka file Enrichment KEGG dan mendapatkan 18 pathways.
 
 Kita kemudian membuka file target-senyawa dan jangan lupa mengubah tanda di senyawa menjadi source node. Dan inilah network target-senyawa yang kita miliki. Kita juga membuka file string_interaction_irisan yang kita dapat di awal. Dan terakhir kita membuka file Enrichment KEGG yang berisi 18 pathways. Kita kemudian me-“merge” (menggabungkan) ketiga file tersebut dan inilah network yang kita miliki.
