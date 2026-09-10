@@ -8,7 +8,7 @@ Kita kemudian ke PubChem dan mengambil data SMILE dari senyawa-senyawa obat ters
 
 Buat di file excel baru satu sheet yang berisi semua senyawa penyakit dan juga semua senyawa obat yang bersebelahan. Kemudian buat irisan dari kedua data tersebut menggunakan website Venny, dan juga buat gabungan antara senyawa penyakit dan obat.
 
-![Gambar Irisan](gambar_irisan.png)
+![Gambar Irisan](gambar_irisann.png)
 ![Tabel Irisan](tabel_irisan.png)
 
 Masukkan hasil irisan dari data penyakit dan data obat ke website String untuk kemudian mendapat visualisasi protein-protein interaction irisan dari penyakit dan obat. Setelah irisan, buat gabungan dari senyawa penyakit dan obat dalam satu column, lalu masukkan ke String untuk mendapat visualisasi protein-protein interaction gabungan. Jadi sekarang kita mempunyai dua file, irisan dan gabungan dari senyawa penyakit dan obat.
