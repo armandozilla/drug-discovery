@@ -17,6 +17,7 @@ Masukkan hasil irisan dari data penyakit dan data obat ke website String untuk k
 
 *Irisan String*
 
+
 Langkah berikutnya adalah visualisasi data menggunakan aplikasi Cytoscape. Masukkan file gabungan data dan kita dapat melihat data gabungan yang masif. Kemudian lakukan analyze network untuk melihat data-data dari senyawa gabungan tersebut seperti degree, betweenness centrality, dan closeness centrality.
 
 Kemudian aktifkan cytocluster dan gunakan untuk membuat cluster-cluster. Dalam studi ini terbentuk 13 cluster. Kita lalu membuat network dari cluster pertama. Network itu lalu kita analisis seperti biasa. Kita kemudian menghapus data-data analisis yang tidak kita butuhkan, dan sisakan degree, betweenness centrality, dan closeness centrality karena hanya data itu yang kita butuhkan.
