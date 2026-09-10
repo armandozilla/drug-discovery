@@ -23,6 +23,8 @@ Kemudian aktifkan cytocluster dan gunakan untuk membuat cluster-cluster. Dalam s
 
 Kita lalu ubah bentuk network menjadi lingkaran berdasarkan degree. Setelah disimpan, kita kembali ke main network. Dengan cytohubba kita ambil 20 data terpenting dari network tersebut. Rangking tertinggi pada network ini adalah EGFR. Kita kemudian membuka file irisan dan terdapat 9 nodes. Dengan Cytohubba didapatkan kalau node tertinggi adalah MTOR.
 
+![tabel hub protein](tabel_hub_protein.png)*Tabel Hub Protein*
+
 Kita kemudian melakukan enrichment analysis dengan ShinyGO. Top 20 senyawa yang kita dapatkan tadi kita masukkan ke dalam ShinyGO. Dari 20 senyawa tersebut yang menduduki posisi paling berpengaruh adalah “Prolactin Signaling Pathway”.
 
 Kita lalu kembali ke String dan memasukkan 9 protein irisan yang tadi. Dari hasil analisis, kita akan mendownload biological process (gene ontology), molecular function (gene ontology), KEGG pathways, dan All Enriched Terms untuk kemudian divisualisasikan di Cytoscape. Kita buka file Enrichment KEGG dan mendapatkan 18 pathways.
