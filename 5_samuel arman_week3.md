@@ -6,9 +6,13 @@ Struktur tiga dimensi mTOR yang digunakan dalam analisis ini diperoleh dari Prot
 
 Sebelum docking dilakukan, prediksi *binding pocket* juga dianalisis menggunakan **P2Rank/PrankWeb**. Pocket dengan peringkat pertama memiliki **P2Rank score 9,57**, probability **0,556**, dan terdiri atas **18 residu**. Probability pada PrankWeb merupakan transformasi skor P2Rank ke skala 0–1 yang dikalibrasi berdasarkan proporsi *true binding sites* pada situs dengan skor sebanding. Dengan demikian, nilai tersebut sebaiknya dipahami sebagai tingkat keyakinan prediksi pocket, bukan sebagai probabilitas bahwa ergosterol peroxide akan mengikat mTOR. Menariknya, lokasi pocket yang diprediksi P2Rank bertepatan dengan daerah tempat Torin2 berada pada struktur kristal, sehingga memberikan dasar tambahan untuk memilih daerah tersebut sebagai *search space* docking.
 
+![prankweb](prankweb.png)*Prankweb*
+
 Pada proses docking menggunakan SwissDock dengan metode **AutoDock Vina**, ergosterol peroxide ditempatkan pada pocket mTOR yang mengacu pada posisi Torin2. Berdasarkan file hasil docking, *search box* berukuran **25 × 25 × 25 Å** dengan pusat pada koordinat sekitar **X = 49, Y = −1, dan Z = −48 Å**. Torin2 dikeluarkan dari receptor sebelum docking sehingga ergosterol peroxide dapat mengeksplorasi ruang ikatan yang sebelumnya ditempati ligan tersebut.
 
 Docking menghasilkan 20 model atau pose dengan *calculated affinity* antara **−8,779 hingga −6,257 kcal/mol**. Model 1 memberikan nilai paling rendah, yaitu **−8,779 kcal/mol**, diikuti Model 2 sebesar −8,484 kcal/mol dan Model 3 sebesar −8,384 kcal/mol. Karena fungsi scoring Vina memberikan nilai yang lebih favorable pada energi yang lebih negatif, **Model 1 dipilih sebagai pose terbaik berdasarkan scoring docking**. Analisis file koordinat Model 1 juga menunjukkan bahwa EP berada dekat dengan sejumlah residu mTOR, antara lain **Ile2163, Leu2185, Lys2187, Tyr2225, Ile2237, Gly2238, Trp2239, Val2240, Met2345, Ile2356, dan Asp2357**. Beberapa residu tersebut juga termasuk dalam pocket yang diprediksi oleh P2Rank, sehingga mendukung bahwa pose terbaik tidak sekadar berada di permukaan protein, tetapi menempati daerah pocket yang ditargetkan.
+
+![Binding](binding.png)*Affinity Binding*
 
 Hasil ini menunjukkan bahwa ergosterol peroxide mempunyai **interaksi yang energetically favorable secara komputasional** dengan pocket kinase mTOR. Nilai −8,779 kcal/mol dapat digunakan sebagai *predicted binding affinity*, tetapi tidak dapat secara langsung dianggap sebagai bukti bahwa EP benar-benar mengikat atau menghambat mTOR pada sistem biologis. Docking merupakan metode prediktif dan dipengaruhi oleh struktur protein, protonasi, fleksibilitas receptor, ukuran *search space*, serta fungsi scoring yang digunakan.
 
