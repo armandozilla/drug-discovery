@@ -19,7 +19,7 @@ Langkah-langkah dalam Network Pharmacology:
 Langkah-langkah dalam Molecular Docking:
 * Dari ranking tertinggi string_interaction_irisan.tsv, didapatkan protein target/reseptor yang paling signifikan adalah mTOR
 *	Dari semua identifier mTOR, saya memilih 4JSX sebagai protein yang paling cocok untuk dilakukan molecular docking
-*	Di SwissDock persiapkan ligan (Ergosterol Peroxide), 4JSX sebagai protein target, posisi ligan di protein yang sudah didapatkan di PrankWeb
+*	Di SwissDock persiapkan ligan (Ergosterol Peroxide), 4JSX sebagai protein target, dan posisi ligan di protein yang sudah didapatkan di PrankWeb
 *	Mulai lakukan Docking
 
 
