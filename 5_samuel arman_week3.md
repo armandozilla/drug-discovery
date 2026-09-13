@@ -6,7 +6,7 @@ Struktur tiga dimensi mTOR yang digunakan dalam analisis ini diperoleh dari Prot
 
 Sebelum docking dilakukan, prediksi *binding pocket* juga dianalisis menggunakan **P2Rank/PrankWeb**. Pocket dengan peringkat pertama memiliki **P2Rank score 9,57**, probability **0,556**, dan terdiri atas **18 residu**. Probability pada PrankWeb merupakan transformasi skor P2Rank ke skala 0–1 yang dikalibrasi berdasarkan proporsi *true binding sites* pada situs dengan skor sebanding. Dengan demikian, nilai tersebut sebaiknya dipahami sebagai tingkat keyakinan prediksi pocket, bukan sebagai probabilitas bahwa ergosterol peroxide akan mengikat mTOR. Menariknya, lokasi pocket yang diprediksi P2Rank bertepatan dengan daerah tempat Torin2 berada pada struktur kristal, sehingga memberikan dasar tambahan untuk memilih daerah tersebut sebagai *search space* docking.
 
-![prankweb](prankweb.png)*Prankweb*
+
 
 Pada proses docking menggunakan SwissDock dengan metode **AutoDock Vina**, ergosterol peroxide ditempatkan pada pocket mTOR yang mengacu pada posisi Torin2. Berdasarkan file hasil docking, *search box* berukuran **25 × 25 × 25 Å** dengan pusat pada koordinat sekitar **X = 49, Y = −1, dan Z = −48 Å**. Torin2 dikeluarkan dari receptor sebelum docking sehingga ergosterol peroxide dapat mengeksplorasi ruang ikatan yang sebelumnya ditempati ligan tersebut.
 
