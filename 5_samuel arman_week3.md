@@ -14,6 +14,6 @@ Hasil ini menunjukkan bahwa ergosterol peroxide mempunyai **interaksi yang energ
 
 Untuk memperkuat validitas hasil, tahap selanjutnya yang penting adalah melakukan **redocking Torin2** menggunakan kondisi docking yang sama. Karena Torin2 merupakan *co-crystallized ligand* 4JSX, pose hasil redocking dapat dibandingkan dengan posisi Torin2 pada struktur kristal menggunakan RMSD. Selain itu, *binding affinity* EP sebesar **−8,779 kcal/mol** dapat dibandingkan langsung dengan Torin2. Dengan validasi tersebut, hasil docking ini dapat memberikan dasar yang lebih kuat untuk mengajukan hipotesis bahwa **mTOR merupakan salah satu potential molecular targets ergosterol peroxide**, yang selanjutnya perlu dikonfirmasi melalui pendekatan eksperimental.
 
-[1]: https://www.uniprot.org/uniprotkb/P42345/publications?utm_source=chatgpt.com "MTOR - Serine/threonine-protein kinase mTOR - Homo sapiens (Human) | Publications | UniProtKB"
-[2]: https://www.rcsb.org/structure/4JSX?utm_source=chatgpt.com "RCSB PDB - 4JSX: structure of mTORDeltaN-mLST8-Torin2 complex"
-[3]: https://academic.oup.com/nar/article/50/W1/W593/6591527?utm_source=chatgpt.com "PrankWeb 3: accelerated ligand-binding site predictions for experimental and modelled protein structures | Nucleic Acids Research | Oxford Academic"
+Referensi:
+* Bugnon M, Röhrig UF, Goullieux M, Perez MAS, Daina A, Michielin O, Zoete V. SwissDock 2024: major enhancements for small-molecule docking with Attracting Cavities and AutoDock Vina. Nucleic Acids Res. 2024
+* Eberhardt J, Santos-Martins D, Tillack AF, Forli S.. AutoDock Vina 1.2.0: New Docking Methods, Expanded Force Field, and Python Bindings. J. Chem. Inf. Model., 2021
