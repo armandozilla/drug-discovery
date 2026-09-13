@@ -4,6 +4,8 @@ Molecular docking dilakukan untuk mengevaluasi potensi interaksi antara **ergost
 
 Struktur tiga dimensi mTOR yang digunakan dalam analisis ini diperoleh dari Protein Data Bank dengan kode **PDB ID 4JSX**. Struktur tersebut merupakan kompleks **mTORΔN–mLST8–Torin2** yang ditentukan menggunakan X-ray crystallography dengan resolusi **3,50 Å** dan tidak mengandung mutasi pada mTOR. Struktur 4JSX sangat sesuai untuk analisis docking karena mengandung ligan yang dikristalkan bersama protein, yaitu **Torin2**, yang pada PDB diberi kode heteroatom **17G**. Torin2 merupakan inhibitor mTOR yang menempati *ATP-binding pocket* pada kinase domain, sehingga lokasi ligan tersebut dapat digunakan sebagai referensi untuk menentukan daerah docking.
 
+![tabel](tabel.png)*Tabel*
+
 Sebelum docking dilakukan, prediksi *binding pocket* juga dianalisis menggunakan **P2Rank/PrankWeb**. Pocket dengan peringkat pertama memiliki **P2Rank score 9,57**, probability **0,556**, dan terdiri atas **18 residu**. Probability pada PrankWeb merupakan transformasi skor P2Rank ke skala 0–1 yang dikalibrasi berdasarkan proporsi *true binding sites* pada situs dengan skor sebanding. Dengan demikian, nilai tersebut sebaiknya dipahami sebagai tingkat keyakinan prediksi pocket, bukan sebagai probabilitas bahwa ergosterol peroxide akan mengikat mTOR. Menariknya, lokasi pocket yang diprediksi P2Rank bertepatan dengan daerah tempat Torin2 berada pada struktur kristal, sehingga memberikan dasar tambahan untuk memilih daerah tersebut sebagai *search space* docking.
 
 ![prankweb](prankwebb.png)*Prankweb*
