@@ -21,3 +21,5 @@ Langkah-langkah dalam Molecular Docking:
 *	Dari semua identifier mTOR, saya memilih 4JSX sebagai protein yang paling cocok untuk dilakukan molecular docking
 *	Di SwissDock persiapkan ligan (Ergosterol Peroxide), 4JSX sebagai protein target, posisi ligan di protein yang sudah didapatkan di PrankWeb
 *	Mulai lakukan Docking
+
+
