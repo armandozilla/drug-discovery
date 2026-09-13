@@ -1,7 +1,7 @@
 # Workflow Penelitian
 
 Langkah-langkah dalam Network Pharmacology:
-*Pencarian data target gen dengan OMIM
+* Pencarian data target gen dengan OMIM
 *	Setelah data dibersihkan, ambil data “Approved Symbol”-nya
 *	Mencari senyawa potensial yang bisa berinteraksi dengan gen target penyakit dengan PubChem
 *	Ambil SMILE-nya di PubChem
