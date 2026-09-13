@@ -25,6 +25,7 @@ Langkah-langkah dalam Molecular Docking:
 # Hasil Network Pharmacology
 ![the_real_final_countdown_gambar](the_real_final_countdown_gambar.png)
 # Hasil Molecular Docking
-![the_real_final_countdown_gambar](the_real_final_countdown_gambar.png)
+![visualisasi](visualisasi.png)
+# Laporan Singkat
 
 
