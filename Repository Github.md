@@ -22,4 +22,7 @@ Langkah-langkah dalam Molecular Docking:
 *	Di SwissDock persiapkan ligan (Ergosterol Peroxide), 4JSX sebagai protein target, dan posisi ligan di protein yang sudah didapatkan di PrankWeb
 *	Mulai lakukan Docking
 
+# Hasil Network Pharmacology
+
+
 
