@@ -33,7 +33,7 @@ Kita lalu kembali ke String dan memasukkan 9 protein irisan yang tadi. Dari hasi
 
 Kita kemudian membuka file target-senyawa dan jangan lupa mengubah tanda di senyawa menjadi source node. Dan inilah network target-senyawa yang kita miliki. Kita juga membuka file string_interaction_irisan yang kita dapat di awal. Dan terakhir kita membuka file Enrichment KEGG yang berisi 18 pathways. Kita kemudian me-“merge” (menggabungkan) ketiga file tersebut dan inilah network yang kita miliki.
 
-Kita kemudian pilih nodesnotes connected by selected edges. Selanjutnya kita memilih first neighborhood of selected nodes dan klik undirected. Kita lanjutkan dengan memilih new network dan from selected nodes, all edges. Dan inilah network pharmacology yang kita punya.
+Kita kemudian pilih nodes connected by selected edges. Selanjutnya kita memilih first neighborhood of selected nodes dan klik undirected. Kita lanjutkan dengan memilih new network dan from selected nodes, all edges. Dan inilah network pharmacology yang kita punya.
 
 ### Referensi
 Molecular mechanisms of phytochemicals from Chaga Mushroom (Inonotus obliquus) against colorectal cancer: Insight from network pharmacology, molecular docking and bioinformatics — https://doi.org/10.3390/ijms26167664
